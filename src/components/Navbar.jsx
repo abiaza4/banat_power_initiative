@@ -43,7 +43,7 @@ export default function Navbar() {
       </div>
 
       {/* Main Navbar */}
-      <header className="bg-white shadow-md">
+      <header className="bg-white shadow-md sticky top-0 z-50">
         <nav className="max-w-7xl mx-auto px-4 md:px-6 py-4">
           <div className="flex items-center justify-between">
             {/* Logo - Left */}
