@@ -10,12 +10,9 @@ export default function Footer() {
           {/* Brand & About */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                <span className="material-symbols-outlined text-white text-2xl">women</span>
-              </div>
+              <img src="/banat.jpg" alt="Banat Power Initiative" className="w-12 h-12 object-cover rounded-full" />
               <div>
-                <span className="text-xl font-black text-pink-500 font-headline">Banat Power</span>
-                <p className="text-[10px] text-zinc-400 uppercase tracking-widest">Initiative</p>
+                <span className="text-xl font-black text-pink-500 font-headline">Banat Power Initiative</span>
               </div>
             </div>
             <p className="text-zinc-400 text-sm leading-relaxed mb-6">
@@ -23,7 +20,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               <a href="mailto:banatpower2@gmail.com" className="w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center text-zinc-400 hover:bg-primary hover:text-white transition-all" title="Email">
-                <span className="material-symbols-outlined text-lg">mail</span>
+                <span className="material-symbols-outlined text-lg">email</span>
               </a>
               <a href="#facebook" className="w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center text-zinc-400 hover:bg-blue-600 hover:text-white transition-all" title="Facebook">
                 <span className="material-symbols-outlined text-lg">public</span>

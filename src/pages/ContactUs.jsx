@@ -171,7 +171,7 @@ export default function ContactUs() {
                       </div>
                     </div>
                     <div className="flex items-start gap-4">
-                      <span className="material-symbols-outlined mt-1" data-icon="mail">mail</span>
+                      <span className="material-symbols-outlined mt-1" data-icon="email">email</span>
                       <div>
                         <p className="font-label text-xs uppercase opacity-70 tracking-widest">Email Us</p>
                         <p className="text-lg font-medium">banatpower2@gmail.com</p>

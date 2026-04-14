@@ -30,7 +30,7 @@ export default function Navbar() {
           
           {/* Email */}
           <a href="mailto:banatpower2@gmail.com" className="flex items-center gap-1.5 hover:text-white/80 transition-colors">
-            <span className="material-symbols-outlined text-sm">mail</span>
+            <span className="material-symbols-outlined text-sm">email</span>
             <span>banatpower2@gmail.com</span>
           </a>
           
@@ -48,10 +48,8 @@ export default function Navbar() {
           <div className="flex items-center justify-between">
             {/* Logo - Left */}
             <Link to="/" className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                <span className="material-symbols-outlined text-white text-xl">women</span>
-              </div>
-              <span className="text-lg md:text-xl font-black text-pink-700 font-headline tracking-tight">Banat Power</span>
+              <img src="/banat.jpg" alt="Banat Power Initiative" className="w-10 h-10 object-cover rounded-full" />
+              <span className="text-lg md:text-xl font-black text-pink-700 font-headline tracking-tight">Banat Power Initiative</span>
             </Link>
             
             {/* Desktop Navigation - Center */}
@@ -103,7 +101,7 @@ export default function Navbar() {
                     <span>+211 921 768 811</span>
                   </a>
                   <a href="mailto:banatpower2@gmail.com" className="flex items-center gap-2 text-zinc-600">
-                    <span className="material-symbols-outlined text-sm">mail</span>
+                    <span className="material-symbols-outlined text-sm">email</span>
                     <span>banatpower2@gmail.com</span>
                   </a>
                   <div className="flex items-center gap-2 text-zinc-600">
